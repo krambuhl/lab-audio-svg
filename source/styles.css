@@ -1,0 +1,28 @@
+:root {
+  --color-bg: #fff;
+  --color-text: #222;
+  --color-green: #4a975e;
+}
+
+@import "normalize.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+
+path {
+  stroke: black;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  fill: transparent
+}
